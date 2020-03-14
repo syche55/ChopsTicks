@@ -1,0 +1,161 @@
+body {
+  background: #df6a6a;
+  text-align: center;
+
+}
+
+h1 {
+  color: #6c5070;
+  font-size: 4rem;
+  font-family: 'Rock Salt', cursive;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  color: #6c5070;
+  font-size: 2rem;
+  font-family: 'Rock Salt', cursive;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #df6a6a;
+  font-family: 'Rock Salt', cursive;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+h5 {
+  color: #6c5070;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+}
+
+p {
+  line-height: 25px;
+  color: grey;
+}
+.display-title {
+  text-align: left;
+}
+.navbar {
+  padding-right: 0;
+}
+.navbar-brand {
+  color: #6c5070;
+  font-size: 1rem;
+  font-family: 'Rock Salt', cursive;
+  font-weight: bold;
+
+}
+.container-fluid {
+  background: #f5efe3;
+  width: auto;
+  height: 900px;
+  margin:20px 20px 20px;
+  position:relative;
+
+}
+
+.nav-item {
+  padding: 0 5px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+.nav-item a:hover {
+  color: #6c5070 !important;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.title-image {
+  width: 120px;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 5px;
+}
+
+ #button-ready {
+   background-color: #c2dbc1;
+   color: grey;
+   height:40px;
+   width: 250px;
+   border-radius: 30px;
+   border: none;
+   font-family: 'Raleway', sans-serif;
+   font-weight: bold;
+   margin-top: 25px;
+ }
+
+ .button-ready span {
+   color: grey;
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.4s;
+ }
+ .button-ready span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+ }
+ .button-ready:hover span {
+   color: grey;
+   padding-right: 25px;
+ }
+ .button-ready:hover span:after {
+   opacity: 1;
+   right: 0;
+ }
+
+.dish-display-small {
+  width:240px;
+  height: 180px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.row {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.dish-display-small-description {
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: None;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.element {
+  @include float-left;
+}
+
+#TourDisplayCarousel {
+  width: 500px;
+  height: 250px;
+
+}
+
+.carousel-inner img {
+  margin: auto;
+  border-radius: 20px;
+
+}
+
+.carousel {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
